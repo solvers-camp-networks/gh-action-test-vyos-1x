@@ -87,7 +87,7 @@ jobs:
         id: determine-ref
         run: |
           BRANCH="${{ steps.config.outputs.branch }}"
-          VYOS_BUILD_REPO=$(jq -r .branches["${BRANCH}"].vyos_build_repo .github/config/smoketest-branches.json)
+          VYOS_BUILD_REPO=$(jq -r --arg branch "$BRANCH" '.branches[$branch].vyos_build_repo' .github/config/smoketest-branches.json)
 
           if [[ "${{ github.event_name }}" == "pull_request_target" ]]; then
             PR_HEAD_REF="${{ github.event.pull_request.head.ref }}"
