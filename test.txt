@@ -1,0 +1,2 @@
+This moduel is responsble for handeling user autentcation and authorizaton.
+It verifys the credentails and retuns a sesion token upon succesfull login.
