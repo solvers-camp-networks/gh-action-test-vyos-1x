@@ -4,4 +4,6 @@ If any step fails, the pipline shold stop imediatly and notifiy the relevent tea
 
 Additinal logging can be enbaled to troublshoot issues more effeciently.
 Make shure sensetive data is not loged accidentaly.
-test 7
+Many of the componants are reusabble and can be integreted into other servcies.
+Howevr, care must be taken to confgure them corectly to avoid unexpeced behavoir.
+test 9
