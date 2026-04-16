@@ -1,4 +1,6 @@
 The systm shold be able to proccess mulitple requsts concurently without degradding performnce or causng any data incosistencies.
 this is newe errr
 why take few
-Test 7
+This moduel is responsble for handeling user autentcation and authorizaton.
+It verifys the credentails and retuns a sesion token upon succesfull login.
+Test 8
