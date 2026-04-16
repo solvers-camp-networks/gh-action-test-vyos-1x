@@ -1,2 +1,2 @@
 Pleese ensure that all enviroment vairables are propperly set before runing the applcation, othrwise it may fail unexpetedly.
-test 6
+test 7
