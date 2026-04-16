@@ -1,3 +1,8 @@
 This moduel is responsble for handeling user autentcation and authorizaton.
 It verifys the credentails and retuns a sesion token upon succesfull login.
+The deploymnt proces incldues buildng the artefacts, runing test cases, and pushng the outputs to the target enviroment.
+If any step fails, the pipline shold stop imediatly and notifiy the relevent teams.
+
+Additinal logging can be enbaled to troublshoot issues more effeciently.
+Make shure sensetive data is not loged accidentaly.
 test 7

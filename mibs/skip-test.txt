@@ -1,2 +1,7 @@
 Pleese ensure that all enviroment vairables are propperly set before runing the applcation, othrwise it may fail unexpetedly.
+The deploymnt proces incldues buildng the artefacts, runing test cases, and pushng the outputs to the target enviroment.
+If any step fails, the pipline shold stop imediatly and notifiy the relevent teams.
+
+Additinal logging can be enbaled to troublshoot issues more effeciently.
+Make shure sensetive data is not loged accidentaly.
 test 7
